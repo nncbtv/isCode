@@ -13,6 +13,6 @@ public abstract class Volo {
 	
 }//Volo
 /*
- * Questa classe verrà astratta dai Colleague del design pattern.
+ * Questa classe verrà implementata dai Colleague del design pattern.
  * 
  */
