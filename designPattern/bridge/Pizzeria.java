@@ -11,7 +11,7 @@ public abstract class Pizzeria {
 	abstract void addIngredienti();
 	abstract void addIngredienteExtra();
 	abstract void setMetodoCottura();
-	/*Un  ordine di una pizza si evade sempre nello stesso modo, inserisco gli ingredienti di base, quelli extra e
+	/* Un  ordine di una pizza si evade sempre nello stesso modo, inserisco gli ingredienti di base, quelli extra e
 	 * decido il metodo di cottura prima di preparare tutto ed infornare
 	 */
 	public void ordinePizza() {
