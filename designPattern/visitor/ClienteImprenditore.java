@@ -11,4 +11,4 @@ public class ClienteImprenditore extends Cliente{
 		x.visita(this);
 	}//accettaVisita
 
-}
+}//ClienteImprenditore

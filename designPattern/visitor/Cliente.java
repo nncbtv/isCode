@@ -19,4 +19,6 @@ public abstract class Cliente {
 
 	public abstract void accettaVisita(Rappresentante x);
 	
+	public String getNome() {return nome;}//getNome giusto per output
+	
 }//Cliente

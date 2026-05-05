@@ -1,5 +1,7 @@
 package is.designPattern.visitor;
 
+import java.util.List;
+
 public interface Rappresentante { 
 	/*
 	 * Questo è il nostro visitor astratto
@@ -8,7 +10,7 @@ public interface Rappresentante {
 	 * Stesso metodo ma faccio overloading, se non è possibile fare overloading creo
 	 * metodi con nomi diversi
 	 */
-	
+	void visitaClienti(List<Cliente> l);
 	void visita(ClienteCivile cv);
 	void visita(ClienteNegozio cn);
 	void visita(ClienteImprenditore ci);

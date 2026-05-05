@@ -17,17 +17,17 @@ public class RappresentanteAssicurazione implements Rappresentante {
 	
 	@Override
 	public void visita(ClienteNegozio cn) {
-		System.out.println("Sto proponendo la polizza furti ad un negoziante");
+		System.out.println("Sto proponendo la polizza furti ad un negoziante ("+cn.getNome()+")");
 	}//visitClienteNegozio
 
 	@Override
 	public void visita(ClienteImprenditore ci) {
-		System.out.println("Sto proponendo la polizza incendio ad un imprenditore");
+		System.out.println("Sto proponendo la polizza incendio ad un imprenditore ("+ci.getNome()+")");
 	}//visitClienteImprenditore
 
 	@Override
 	public void visita(ClienteCivile cv) {
-		System.out.println("Sto propronendo la polizza vita ad un cliente");
+		System.out.println("Sto propronendo la polizza vita ad un cliente ("+cv.getNome()+")");
 	}//visitClienteCivile
 
 }//RappresentanteAssicurazione
