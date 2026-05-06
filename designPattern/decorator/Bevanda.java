@@ -1,4 +1,4 @@
-package Decorator;
+package is.designPattern.decorator;
 //Component
 
 public interface Bevanda { 

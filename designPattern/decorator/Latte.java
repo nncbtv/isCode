@@ -1,4 +1,4 @@
-package Decorator;
+package is.designPattern.decorator;
 
 public class Latte extends DecoratorBevanda { //supplemento da aggiungere al servizio base
 	public Latte(Bevanda bevanda) {

@@ -1,4 +1,4 @@
-package Decorator;
+package is.designPattern.decorator;
 
 public class Caffe implements Bevanda{ //rappresenta un servizio base del componente (viene utilizzato sempre).
 	 @Override
