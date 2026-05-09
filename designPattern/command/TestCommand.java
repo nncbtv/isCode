@@ -10,7 +10,8 @@ public class TestCommand {
 		Irrigazione b = new Irrigazione(matteo);
 		//Ora li passo all'invoker
 		BachecaLavorazioni bl = new BachecaLavorazioni(List.of(a,b));
-		//Chiedo all'invoker di inviare una richiesta di esecuzione
+		//Chiedo all'invoker di inviare una richiesta di esecuzione ai receiver
 		bl.eseguiLavorazioni();
+		//Non so cosa e come eseguiranno il comando i receiver
 	}//main
 }//TestCommand
