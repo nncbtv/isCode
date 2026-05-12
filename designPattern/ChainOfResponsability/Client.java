@@ -1,4 +1,4 @@
-package is.designPattern.adapter.ChainOfResponsability;
+package is.designPattern.ChainOfResponsability;
 
 public class Client {
 	public static void main(String[] args) {// Creo i due handler.     
