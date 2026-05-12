@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Pagina-1" id="wqCvR9t_d0Q6xsaHqBbo">
+    <mxGraphModel dx="981" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xSWwgKvMvyTxIeHobkGt-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Documento" vertex="1">
+          <mxGeometry height="120" width="160" x="110" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="xSWwgKvMvyTxIeHobkGt-2" parent="xSWwgKvMvyTxIeHobkGt-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- testo: String" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xSWwgKvMvyTxIeHobkGt-3" parent="xSWwgKvMvyTxIeHobkGt-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="xSWwgKvMvyTxIeHobkGt-4" parent="xSWwgKvMvyTxIeHobkGt-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ aggiungiTesto(String)&lt;div&gt;+ salvaStato():Memento&lt;/div&gt;&lt;div&gt;+ ricostruisci(Memento)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xSWwgKvMvyTxIeHobkGt-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Memento" vertex="1">
+          <mxGeometry height="100" width="160" x="390" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="xSWwgKvMvyTxIeHobkGt-10" parent="xSWwgKvMvyTxIeHobkGt-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- testo: String" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xSWwgKvMvyTxIeHobkGt-11" parent="xSWwgKvMvyTxIeHobkGt-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="xSWwgKvMvyTxIeHobkGt-12" parent="xSWwgKvMvyTxIeHobkGt-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- Memento(String)&lt;/div&gt;+ getSavedString(): String" vertex="1">
+          <mxGeometry height="40" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xSWwgKvMvyTxIeHobkGt-14" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=110;height=30;" value="Pattern Memento" vertex="1">
+          <mxGeometry height="200" width="510" x="70" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xSWwgKvMvyTxIeHobkGt-15" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ArchivioBozze" vertex="1">
+          <mxGeometry height="100" width="160" x="700" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="xSWwgKvMvyTxIeHobkGt-16" parent="xSWwgKvMvyTxIeHobkGt-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- cluster: Memento" vertex="1">
+          <mxGeometry height="26" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="xSWwgKvMvyTxIeHobkGt-17" parent="xSWwgKvMvyTxIeHobkGt-15" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="xSWwgKvMvyTxIeHobkGt-18" parent="xSWwgKvMvyTxIeHobkGt-15" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ push(Memento)&lt;div&gt;+ pop():Memento&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="160" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xSWwgKvMvyTxIeHobkGt-19" edge="1" parent="1" style="endArrow=open;startArrow=circlePlus;endFill=0;startFill=0;endSize=8;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xSWwgKvMvyTxIeHobkGt-10" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="270" y="209.64" as="sourcePoint" />
+            <mxPoint x="430" y="209.64" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xSWwgKvMvyTxIeHobkGt-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Contiene e usa" vertex="1">
+          <mxGeometry height="30" width="90" x="290" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="xSWwgKvMvyTxIeHobkGt-22" edge="1" parent="1" source="xSWwgKvMvyTxIeHobkGt-16" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="xSWwgKvMvyTxIeHobkGt-10" value="">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="440" y="250" as="sourcePoint" />
+            <mxPoint x="600" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xSWwgKvMvyTxIeHobkGt-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Composto da" vertex="1">
+          <mxGeometry height="30" width="80" x="600" y="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
