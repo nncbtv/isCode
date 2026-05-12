@@ -1,4 +1,4 @@
-package is.designPattern.adapter.ChainOfResponsability;
+package is.designPattern.ChainOfResponsability;
 
 public abstract class Handler {//Colui che definisce la base per chi è in grado di soddisfare la richiesta
 	 protected Handler successor;

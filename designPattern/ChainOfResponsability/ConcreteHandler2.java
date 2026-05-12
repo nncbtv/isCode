@@ -1,4 +1,4 @@
-package is.designPattern.adapter.ChainOfResponsability;
+package is.designPattern.ChainOfResponsability;
 
 public class ConcreteHandler2 extends Handler {//Handler successivo che prova a soddfisfare la richiesta 
 	 @Override

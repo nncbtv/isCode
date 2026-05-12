@@ -1,4 +1,4 @@
-package is.designPattern.adapter.ChainOfResponsability;
+package is.designPattern.ChainOfResponsability;
 
 public class ConcreteHandler extends Handler{// colui che prova a gestire la richiesta; se non può, la passa a successore
 
