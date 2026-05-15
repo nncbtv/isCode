@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Pagina-1" id="jFLy2svtKaZOFjz1rmrh">
+    <mxGraphModel dx="1084" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="25b3A9SUgXIeumWUyAit-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;i&gt;GestioneAccessi&lt;/i&gt;" vertex="1">
+          <mxGeometry height="150" width="210" x="470" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="25b3A9SUgXIeumWUyAit-2" parent="25b3A9SUgXIeumWUyAit-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- AZIENDA: String" vertex="1">
+          <mxGeometry height="26" width="210" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="25b3A9SUgXIeumWUyAit-3" parent="25b3A9SUgXIeumWUyAit-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="210" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="25b3A9SUgXIeumWUyAit-4" parent="25b3A9SUgXIeumWUyAit-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ richiediAccesso()&lt;div&gt;# autenticazione(): {leaf}&lt;/div&gt;&lt;div&gt;# lasciaPassare():Boolean {leaf}&lt;/div&gt;&lt;div&gt;# risposta(Boolean o): {final}&lt;/div&gt;&lt;div&gt;# aperturaVarco(): {final}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="210" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="25b3A9SUgXIeumWUyAit-5" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" value="richiediAccesso(){&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;autenticazione()&lt;div&gt;boolean esito = lasciaPAssare()&lt;/div&gt;&lt;div&gt;risposta(esito)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="180" x="800" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="25b3A9SUgXIeumWUyAit-6" edge="1" parent="1" source="25b3A9SUgXIeumWUyAit-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;dashed=1;" target="25b3A9SUgXIeumWUyAit-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25b3A9SUgXIeumWUyAit-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="METODO TEMPLATE" vertex="1">
+          <mxGeometry height="30" width="170" x="800" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="25b3A9SUgXIeumWUyAit-8" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Personale" vertex="1">
+          <mxGeometry height="110" width="220" x="340" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="25b3A9SUgXIeumWUyAit-9" parent="25b3A9SUgXIeumWUyAit-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- nome, cognome, azienda: String" vertex="1">
+          <mxGeometry height="26" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="25b3A9SUgXIeumWUyAit-10" parent="25b3A9SUgXIeumWUyAit-8" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="25b3A9SUgXIeumWUyAit-11" parent="25b3A9SUgXIeumWUyAit-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ autenticazione()&lt;div&gt;+ lasciaPassare()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="220" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="25b3A9SUgXIeumWUyAit-12" edge="1" parent="1" source="25b3A9SUgXIeumWUyAit-8" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="25b3A9SUgXIeumWUyAit-4" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="280" />
+              <mxPoint x="575" y="280" />
+            </Array>
+            <mxPoint x="490" y="270" as="sourcePoint" />
+            <mxPoint x="650" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="25b3A9SUgXIeumWUyAit-13" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Tecnico" vertex="1">
+          <mxGeometry height="118" width="220" x="630" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="25b3A9SUgXIeumWUyAit-14" parent="25b3A9SUgXIeumWUyAit-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- nome: String&lt;div&gt;- autenticazione: Int&lt;/div&gt;" vertex="1">
+          <mxGeometry height="34" width="220" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="25b3A9SUgXIeumWUyAit-15" parent="25b3A9SUgXIeumWUyAit-13" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="220" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="25b3A9SUgXIeumWUyAit-16" parent="25b3A9SUgXIeumWUyAit-13" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ autenticazione()&lt;div&gt;+ lasciaPassare()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="220" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="25b3A9SUgXIeumWUyAit-17" edge="1" parent="1" source="25b3A9SUgXIeumWUyAit-13" style="endArrow=none;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="280" />
+            </Array>
+            <mxPoint x="660" y="270" as="sourcePoint" />
+            <mxPoint x="570" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
