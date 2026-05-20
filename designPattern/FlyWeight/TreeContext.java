@@ -1,4 +1,4 @@
-package is.designPattern.FlyWaight;
+package is.designPattern.FlyWeight;
 
 public class TreeContext {  //è il contesto.
     private String uniqueState;   // è lo stato unico, cioè quello che cambia da un oggetto all’altro. (la posizione)

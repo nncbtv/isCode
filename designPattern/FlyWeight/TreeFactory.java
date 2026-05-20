@@ -1,4 +1,4 @@
-package is.designPattern.FlyWaight;
+package is.designPattern.FlyWeight;
 
 import java.util.HashMap;
 import java.util.Map;

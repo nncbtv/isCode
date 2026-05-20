@@ -1,4 +1,4 @@
-package is.designPattern.FlyWaight;
+package is.designPattern.FlyWeight;
 
 public class Client {
     public static void main(String[] args) {

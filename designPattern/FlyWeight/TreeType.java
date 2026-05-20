@@ -1,6 +1,6 @@
-package is.designPattern.FlyWaight;
+package is.designPattern.FlyWeight;
 
-public class TreeType { //FlyWaight
+public class TreeType { //FlyWeight
     private String name; // rappresenta lo stato ripetuto: ad esempio "Quercia" o "Pino".
 
     public TreeType(String name) {
