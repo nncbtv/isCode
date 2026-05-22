@@ -3,11 +3,11 @@ package is.designPattern.templateMethod;
 public abstract class GestioneAccesso {
 	
 	protected static final String AZIENDA_PROVENIENZA = "AllSafe";
-	
+	private boolean esito;
 	//TEMPLATE METHOD
 	public final void richiediAccesso() {
 		autenticazione();
-		boolean esito = lasciaPassare();
+		esito = lasciaPassare();
 		risposta(esito);
 	}//richiediAccesso
 	
@@ -30,4 +30,5 @@ public abstract class GestioneAccesso {
 		System.out.println("Permessi verificati, autorizzazione consentita, apertura varco...");
 	}//aperturaVarco
 	
+	public boolean guessEsito() {return esito == true;}
 }//GestioneAccesso

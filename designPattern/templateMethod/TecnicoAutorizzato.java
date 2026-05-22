@@ -27,4 +27,8 @@ public class TecnicoAutorizzato extends GestioneAccesso {
 		return true;
 	}//lasciaPassare
 	
+	public String getNome() {
+		return nome;
+	}//getNome
+	
 }//TecnicoAutorizzato

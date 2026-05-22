@@ -1,6 +1,6 @@
 package is.designPattern.command;
 
-public class Operaio {
+public class Operaio{
 	/*
 	 * Questa classe è il Receiver, sarà lei a svolgere le operazioni
 	 */
@@ -17,5 +17,5 @@ public class Operaio {
 	public void araCampo() {
 		System.out.println("Sono: "+nome+", sto arando il campo");
 	}//araCampo
-	
+
 }//Operaio
