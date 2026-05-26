@@ -4,5 +4,5 @@ public class SmsCreator extends NotificaCreator{//questa sottoclasse decide di c
 	@Override
 	public Notifica creaNotifica() {//qui abbiamo effettivamente creato una nuova notifica
 		return new NotificaSms();		    //di tipo email che verrà utilizzata nel metodo astratto creato in precedenza		
-	}
-}
+	}//creaNotifica
+}//SmsCreator

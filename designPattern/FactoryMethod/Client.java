@@ -7,5 +7,5 @@ public class Client { //qui il client utilizzerà la classe creator astratta per
 
 	        NotificaCreator creator2 = new SmsCreator();//*di tipo sms
 	        creator2.mandaNotifica();
-	    }
-}
+	    }//main
+}//Client
