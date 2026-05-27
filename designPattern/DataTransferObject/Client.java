@@ -10,9 +10,8 @@ public class Client {     //Client: usa il mapper per trasformare i dati.
 
      System.out.println(dto.getName() + " - " + dto.getEmail() + " - " + dto.getRuolo());
     
-     UserDTO newUserDTO = new UserDTO("Luca Bianchi", "luca@example.com", "USER"); // DTO ricevuto, ad esempio, da un client remoto.
-
-     User newUser = UserMapper.toDomain(newUserDTO); // Conversione da DTO a Domain Object.
+     //Riutilizzo il DTO creato prima con la mappa
+     User newUser = UserMapper.toDomain(dto); // Conversione da DTO a Domain Object.
 
      System.out.println(newUser.getName() + " - " + newUser.getEmail() + " - " + newUser.getRuolo());
  }
