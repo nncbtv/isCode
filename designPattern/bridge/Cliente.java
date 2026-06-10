@@ -7,9 +7,9 @@ public class Cliente {
 		dividendo da una parte i tipi e dall'altra la metodologia di preparazione*/
 		
 		/*La pizzeria italiana inserirà sempre l'olio e un po' di basilico su qualsiasi pizza passi*/
-		PizzeriaItaliana nonnoTotaro = new PizzeriaItaliana(new PizzaCaprese());
+		Pizzeria nonnoTotaro = new PizzeriaAmericana(new PizzaCaprese());
 		/*La pizzeria americana inserirà la sua salsa segreta in qualsiasi pizza passi*/
-		PizzeriaAmericana jhonatan = new PizzeriaAmericana(new PizzaWrustel());
+		Pizzeria jhonatan = new PizzeriaAmericana(new PizzaWrustel());
 		/*Chiamiamo una bella caprese da nonnoTotaro*/
 		nonnoTotaro.ordinePizza();
 		System.out.println();
@@ -17,9 +17,9 @@ public class Cliente {
 		jhonatan.ordinePizza();
 		/*Proviamo ad invertire le pizze tra le due pizzerie*/
 		System.out.println("\nPizze invertite:\n");
-		PizzeriaItaliana nonnoTotaro2 = new PizzeriaItaliana(new PizzaWrustel());
+		Pizzeria nonnoTotaro2 = new PizzeriaItaliana(new PizzaWrustel());
 		/*La pizzeria americana inserirà la sua salsa segreta in qualsiasi pizza passi*/
-		PizzeriaAmericana jhonatan2 = new PizzeriaAmericana(new PizzaCaprese());
+		Pizzeria jhonatan2 = new PizzeriaAmericana(new PizzaCaprese());
 		/*Chiamiamo una bella wrustel da nonnoTotaro*/
 		nonnoTotaro2.ordinePizza();
 		System.out.println();
