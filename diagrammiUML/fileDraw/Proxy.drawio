@@ -1,0 +1,80 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Pagina-1" id="ZkrrefuIjzVN0ketKpxK">
+    <mxGraphModel dx="975" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PgVJ4SjEMKBK3wZvYAF5-1" parent="1" style="html=1;whiteSpace=wrap;" value="CLIENT" vertex="1">
+          <mxGeometry height="50" width="110" x="30" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PgVJ4SjEMKBK3wZvYAF5-2" parent="1" style="html=1;whiteSpace=wrap;" value="«interface»&lt;br&gt;&lt;b&gt;Archivio Documenti&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="150" x="240" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="PgVJ4SjEMKBK3wZvYAF5-3" edge="1" parent="1" source="PgVJ4SjEMKBK3wZvYAF5-1" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="PgVJ4SjEMKBK3wZvYAF5-2" value="USA">
+          <mxGeometry relative="1" width="160" y="15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="320" y="260" as="sourcePoint" />
+            <mxPoint x="480" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgVJ4SjEMKBK3wZvYAF5-8" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ProxyArchivioDocumenti" vertex="1">
+          <mxGeometry height="198" width="260" x="70" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="PgVJ4SjEMKBK3wZvYAF5-9" parent="PgVJ4SjEMKBK3wZvYAF5-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- archivio: ArchivioDocumentiConcreto&lt;div&gt;- dipendenti: List&lt;/div&gt;&lt;div&gt;- amministratori: List&lt;/div&gt;&lt;div&gt;- logDipendente: boolean&lt;/div&gt;&lt;div&gt;- logAmministrator: boolean&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PgVJ4SjEMKBK3wZvYAF5-10" parent="PgVJ4SjEMKBK3wZvYAF5-8" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="260" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="PgVJ4SjEMKBK3wZvYAF5-11" parent="PgVJ4SjEMKBK3wZvYAF5-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ ProxyArchivioDocumenti(String utente)&lt;/div&gt;+ getDocumento(String nome): String&lt;div&gt;+ stampaDocumento(String nome)&lt;/div&gt;&lt;div&gt;+ addDocumento(String nome, String doc)&lt;/div&gt;&lt;div&gt;+ eliminaDocumento(String nome)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="260" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="PgVJ4SjEMKBK3wZvYAF5-12" edge="1" parent="1" source="PgVJ4SjEMKBK3wZvYAF5-8" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="PgVJ4SjEMKBK3wZvYAF5-2" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="200" />
+              <mxPoint x="315" y="200" />
+            </Array>
+            <mxPoint x="320" y="260" as="sourcePoint" />
+            <mxPoint x="480" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgVJ4SjEMKBK3wZvYAF5-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="IMPLEMENTA" vertex="1">
+          <mxGeometry height="30" width="60" x="330" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="PgVJ4SjEMKBK3wZvYAF5-14" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ArchivioDocumentiConcreto" vertex="1">
+          <mxGeometry height="100" width="250" x="360" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="PgVJ4SjEMKBK3wZvYAF5-15" parent="PgVJ4SjEMKBK3wZvYAF5-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ getDocumento(String nome): String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+ stampaDocumento(String nome)&lt;/div&gt;&lt;div&gt;+ addDocumento(String nome, String doc)&lt;/div&gt;&lt;div&gt;+ eliminaDocumento(String nome)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="74" width="250" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PgVJ4SjEMKBK3wZvYAF5-18" edge="1" parent="1" source="PgVJ4SjEMKBK3wZvYAF5-14" style="endArrow=none;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="485" y="200" />
+              <mxPoint x="308" y="200" />
+            </Array>
+            <mxPoint x="320" y="260" as="sourcePoint" />
+            <mxPoint x="270" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgVJ4SjEMKBK3wZvYAF5-19" edge="1" parent="1" source="PgVJ4SjEMKBK3wZvYAF5-11" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.506;entryY=1.008;entryDx=0;entryDy=0;entryPerimeter=0;" target="PgVJ4SjEMKBK3wZvYAF5-15" value="USA">
+          <mxGeometry relative="1" width="160" x="-0.347" y="8" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="487" y="388" />
+            </Array>
+            <mxPoint x="460" y="410" as="sourcePoint" />
+            <mxPoint x="620" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PgVJ4SjEMKBK3wZvYAF5-20" parent="1" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=11;verticalAlign=top;align=center;" value="Controllo tipo di utente e set varibili booleane per abilitare i metodi" vertex="1">
+          <mxGeometry height="60" width="220" x="210" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="PgVJ4SjEMKBK3wZvYAF5-21" edge="1" parent="1" source="PgVJ4SjEMKBK3wZvYAF5-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.15;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;dashed=1;" target="PgVJ4SjEMKBK3wZvYAF5-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
