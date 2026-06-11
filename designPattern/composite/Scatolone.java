@@ -19,6 +19,10 @@ public class Scatolone implements Scatola{
 		}
 		return totale;
 	}
+
+	public void add(Scatola s) {
+		figli.add(s);
+	}//add
 }//Scatolone
 
 //Questa classe rappresenta il container del design pattern, essa contiene dentro di lei altre scatole o prodotti

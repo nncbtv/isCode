@@ -3,7 +3,6 @@ package is.designPattern.composite;
 public interface Scatola {
 	
 	public double calcolaPrezzo(); //Metodo comune in tutto l'albero
-
 }//Scatola
 
 //Questa interfaccia rappresenta l'attore component nel design pattern
